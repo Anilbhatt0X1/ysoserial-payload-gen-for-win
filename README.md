@@ -16,15 +16,12 @@ How to use it.
 
 ```shell
 python Gen-ysoserial-win.py -h
-usage: Gen-ysoserial-win.py [-h] {Windows,Linux} cmd POC
+usage: Gen-ysoserial-win.py [-h] {Windows,Linux} cmd
 
 positional arguments:
   {Windows,Linux}  Name of the operating system
-  cmd              Command to be executed
-  POC              Windows "ping -n 1 win.REPLACE.server.local"
+  cmd              Command to be executed Use : Windows "ping -n 1 win.REPLACE.server.local"
 
 optional arguments:
   -h, --help       show this help message and exit
-  
-python Gen-ysoserial-win.py Windows "ping -n 1 win.REPLACE.server.local"
   ```
