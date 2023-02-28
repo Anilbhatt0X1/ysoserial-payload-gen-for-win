@@ -31,8 +31,7 @@ def generate_payloads(name, cmd):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("name", choices=["Windows", "Linux"], help="Name of the operating system")
-    parser.add_argument("cmd", help="Command to be executed")
-    parser.add_argument("POC", help='Windows "ping -n 1 win.REPLACE.server.local"')
+    parser.add_argument("cmd", help='Command to be executed  Use : Windows "ping -n 1 win.REPLACE.server.local"')
     args = parser.parse_args()
  
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
