@@ -1,5 +1,5 @@
 ## Description
-The payload_generator tool generates payloads for various types of exploits 
+The Gen-ysoserial-win tool generates payloads for various types of exploits 
 It utilizes the open-source tool ysoserial, which can be used to generate serialized Java objects for exploitation. The tool accepts a command and an operating system as input and generates payloads for different exploits, including remote code execution and command injection. 
 
 The generated payload can be used to do intruded testing in Target to detect the vulnerability
